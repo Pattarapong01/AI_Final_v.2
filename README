@@ -3,13 +3,14 @@
 1.Flask API 
 2.Ollama + Llama 3 (local เครื่องตัวเอง)
 3.SQLite 
-4.RAG โดยเรียนรู้จาก Database 
+4.RAG โดยเรียนรู้จาก Database ของตัวเว็ปโดยตรง
 
 
 
 วิธีการรัน 
-
-- ollama pull llama3 รันเพื่อดึง llama3 มาใช้ประมวลผล
+ 
+- โหลดโมเดล : ollama.com/library/llama3
+- ใช้ ollama pull llama3 รันเพื่อดึง llama3 มาใช้ประมวลผล
 - ใช้ python kpi_calculator.py เพื่อรัน การคำนวณ KPI
 - ใช้ python checkDB.py เพื่อรันเช็คข้อมูล DATABASE
 - ใช้ python app.py เพื่อรัน interface
