@@ -9,6 +9,7 @@
 
 วิธีการรัน 
  
+- ต้องก็อปโค้ด ไปรันในเครื่องที่มี Ollama + Llama 3 (local เครื่องตัวเอง) เพื่อทดสอบ
 - โหลดโมเดล : ollama.com/library/llama3
 - ใช้ ollama pull llama3 รันเพื่อดึง llama3 มาใช้ประมวลผล
 - ใช้ python kpi_calculator.py เพื่อรัน การคำนวณ KPI
